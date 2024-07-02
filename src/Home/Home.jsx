@@ -4,6 +4,7 @@ import InfoBox from '../Components/InfoBox';
 import About from '../Components/About';
 import Contact from '../Components/Contact';
 import Skills from '../Components/Skill';
+import Projects from '../Components/Projects';
 
 
 const Home = () => {
@@ -13,6 +14,7 @@ const Home = () => {
             <InfoBox />
             <About />
             <Skills />
+            <Projects />
             <Contact />
         </div>
     );

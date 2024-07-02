@@ -115,7 +115,9 @@ const Skills = () => {
                         <li className="mb-2 flex items-center">
                             <FaCode className="text-blue-400 mr-2" /> HTML5 & CSS3
                         </li>
-
+                        <li className="mb-2 flex items-center">
+                            <FaCode className="text-blue-400 mr-2" /> JavaScript (ES6+)
+                        </li>
 
                         <li className="mb-2 flex items-center">
                             <FaCode className="text-blue-400 mr-2" /> Bootstrap
@@ -126,17 +128,13 @@ const Skills = () => {
                         <li className="mb-2 flex items-center">
                             <FaCode className="text-blue-400 mr-2" /> DaisyUI
                         </li>
-                        <li className="mb-2 flex items-center">
-                            <FaCode className="text-blue-400 mr-2" /> DaisyUI
-                        </li>
+
                         <li className="mb-2 flex items-center">
                             <FaCode className="text-blue-400 mr-2" /> NPM Pacages
                         </li>
 
 
-                        <li className="mb-2 flex items-center">
-                            <FaCode className="text-blue-400 mr-2" /> JavaScript (ES6+)
-                        </li>
+
 
 
 
@@ -205,7 +203,10 @@ const Skills = () => {
                             <FaToolbox className="text-pink-400 mr-2" /> VS Code
                         </li>
                         <li className="mb-2 flex items-center">
-                            <FaToolbox className="text-pink-400 mr-2" /> Google
+                            <FaToolbox className="text-pink-400 mr-2" /> Open AI
+                        </li>
+                        <li className="mb-2 flex items-center">
+                            <FaToolbox className="text-pink-400 mr-2" /> UI Design
                         </li>
 
                     </ul>

@@ -1,0 +1,23 @@
+[
+    {
+        "_id": 2222221,
+        "name": "JollyHouse (BMS) Site",
+        "description": "Built with React.js, Tailwind CSS, DaisyUI, and npm, JOLLYHOUSE manages apartments, users, payments, and announcements. It includes responsive design, user authentication, dedicated dashboards, and a robust admin panel.",
+        "imageUrl": "https://i.ibb.co/mXQ5bSt/Screenshot-2024-07-03-003830.png",
+        "detailsUrl": "assignment12jollyhome.netlify.app"
+    },
+    {
+        "_id": 222222,
+        "name": "StudyBuddy (Online Gorup Study) Site",
+        "description": "StudyBuddy is a collaborative web app for managing assignments online. It features easy assignment creation, management, and peer grading, all within a user-friendly interface. Built with MongoDB, Express.js, React, Tailwind CSS, and DaisyUI.",
+        "imageUrl": "https://i.ibb.co/Hpp03pw/Screenshot-2024-07-03-004233.png",
+        "detailsUrl": "studybuddy20.netlify.app"
+    },
+    {
+        "_id": 2222223,
+        "name": "ExploreAsia (Turist Management) Site",
+        "description": "ExploreAsia is your go-to platform for discovering Asia's top tourist destinations and cultural experiences. Whether planning your next adventure or exploring from home, ExploreAsia provides detailed information, user-friendly features, and a vibrant community for sharing travel insights.",
+        "imageUrl": "https://i.ibb.co/2hSKQjV/Screenshot-2024-07-03-004426.png",
+        "detailsUrl": "assignment-10-8a056.web.app"
+    }
+]

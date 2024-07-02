@@ -40,11 +40,11 @@ const Banner = () => {
 
                         {/* Social Links */}
                         <div className='flex gap-2'>
-                            <Link to="#" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><FaGithub /></Link>
-                            <Link to="#" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><FaLinkedin /></Link>
-                            <Link to="#" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><FaInstagram /></Link>
-                            <Link to="#" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><FaFacebook /></Link>
-                            <Link to="#" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><BsTwitterX /></Link>
+                            <a target='blank' href="https://github.com/KMTonmoy" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><FaGithub /></a>
+                            <a target='blank' href="https://www.linkedin.com/in/tonmoy-ahamed" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><FaLinkedin /></a>
+                            <a target='blank' href="https://www.instagram.com/tasrikahamed2009/" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><FaInstagram /></a>
+                            <a target='blank' href="https://www.facebook.com/profile.php?id=100088205996277" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><FaFacebook /></a>
+                            <a target='blank' href="https://x.com/TasrikAhamed25" className='text-[#0DFAA1] border-2 border-[#0DFAA1] p-2 rounded-full text-center items-center flex w-10 h-10 justify-center hover:text-black hover:bg-[#0DFAA1]'><BsTwitterX /></a>
                         </div>
                     </div>
                 </div>

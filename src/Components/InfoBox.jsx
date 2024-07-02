@@ -1,12 +1,33 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { FaBriefcase, FaLaptopCode, FaTools } from 'react-icons/fa';
 import { AiOutlineUser } from 'react-icons/ai';
 
 const InfoBox = () => {
-    const projectsCompleted = 12;
+    const [projectsCompleted, setProjects] = useState([]);
     const technologiesUsed = 15;
     const toolsExpertise = "VS Code, Git, Figma";
+
+
+
+
+    useEffect(() => {
+        const fetchProjects = async () => {
+
+            const response = await fetch('projects.json');
+            if (!response.ok) {
+                throw new Error('Failed to fetch projects');
+            }
+            const data = await response.json();
+            setProjects(data);
+
+        };
+
+        fetchProjects();
+    }, []);
+
+
+
 
     return (
         <div className="container mx-auto px-4 md:px-0 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -20,7 +41,7 @@ const InfoBox = () => {
                 <FaBriefcase className="text-4xl md:text-5xl text-green-400 mr-6" />
                 <div>
                     <h3 className="text-xl md:text-2xl font-semibold mb-2">Projects Completed</h3>
-                    <span className="text-3xl md:text-4xl font-bold">{projectsCompleted}</span>
+                    <span className="text-3xl md:text-4xl font-bold">{projectsCompleted.length}</span>
                 </div>
             </motion.div>
 
