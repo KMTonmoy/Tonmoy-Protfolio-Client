@@ -1,8 +1,23 @@
-# React + Vite
+# Projects Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This portfolio website showcases various projects developed with modern web technologies. It features a project gallery, pagination for browsing, and a modal view for detailed project information.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Ensures seamless experience across devices.
+- **Project Gallery**: Displays projects with images, names, and brief descriptions.
+- **Pagination**: Easy navigation through multiple projects.
+- **Modal View**: Detailed project information in a modal popup.
+- **Close Modal by Clicking Outside**: Enhances user experience.
+- **Animated Modal**: Smooth open and close animations.
+- **Toast Notifications**: Inform users to click outside the modal to close it.
+
+## Technologies Used
+
+- **React.js**: For building the UI.
+- **Tailwind CSS & DaisyUI**: For styling.
+- **Framer Motion**: For animations.
+- **React Icons**: For icons.
+- **Toastify**: For notifications.
+
+ 
